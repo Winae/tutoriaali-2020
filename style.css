@@ -1,11 +1,14 @@
+body{ background-color: #00BFFF;
+}
+
 *{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+
 }
 .container {
   width: 100vw;
-  height: 200vh;
+  height: 12vh;
   background: #7B68EE;
 }
 .menu ul{
@@ -20,6 +23,7 @@
   cursor: pointer;
 }
 
+
 .banner{
   margin: 0 100px;
   
@@ -32,6 +36,32 @@
 }
 
 .picture img {
-    width: 100%;
+    width: 70%;
     float: left;
 }
+
+.column{
+  background: #483D8B;
+  width: 30vw;
+  height: 40vh;
+  margin: 0 400px;
+
+}
+
+.info {
+  position: relative;
+  right: 120px;
+  color: #C71585;
+  font-family: monospace;
+ 
+}
+
+.extrainfo{
+
+  position: relative;
+  right: 120px;
+  color: #C71585;
+  font-family: cursive;
+  padding-top: 50px;
+}
+
